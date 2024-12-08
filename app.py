@@ -1,5 +1,5 @@
 from flask import Flask, render_template
-from slotsim import *
+from slotsim import main, *
 from botsim import *
 
 app = Flask(__name__)
